@@ -8,7 +8,7 @@ import java.util.ListIterator;
 import tamagoshis.GrosJoueur;
 import tamagoshis.GrosMangeur;
 import tamagoshis.Tamagoshi;
-import util.Utilisateur;
+import tamagoshi.util.Utilisateur;
 
 /**
  * un petit jeu avec des tamagoshis
