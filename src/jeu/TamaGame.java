@@ -11,7 +11,9 @@ import java.util.ListIterator;
 import tamagoshis.GrosJoueur;
 import tamagoshis.GrosMangeur;
 import tamagoshis.Tamagoshi;
+import visuel.Tama;
 
+import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
 /**
  * un petit jeu avec des tamagoshis
@@ -54,6 +56,14 @@ public class TamaGame {
 	@SuppressWarnings("unchecked")
 	private void initialisation() {
 		System.out.println("Entrez le nombre de tamagoshis désiré !");
+
+		Tama t=new Tama();
+		t.setSize(400, 100);
+		t.setLocationRelativeTo(null);
+		t.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		t.setTitle("Initialisation");
+		t.setVisible(true);
+
 		int n = 0;
 		while (n < 1) {
 			System.out.println("Saisisez un nombre > 0 :");
@@ -71,8 +81,7 @@ public class TamaGame {
 				allTamagoshis.add(new GrosMangeur(saisieClavier()));
 
 		}
-//		aliveTamagoshis = (List<Tamagoshi>) allTamagoshis.clone();
-		// ou encore pour le même résultat
+
 		 aliveTamagoshis = new ArrayList<Tamagoshi>(allTamagoshis);
 	}
 

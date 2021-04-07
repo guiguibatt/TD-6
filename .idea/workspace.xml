@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="initial commit">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="ajout rectangle">
+      <change afterPath="$PROJECT_DIR$/src/visuel/Tama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visuel/TamaJPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphic/TamaFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphic/TamaJPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jeu/AutoTamaGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jeu/TamaGameGraphic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tamagoshis/GrosJoueur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tamagoshis/GrosMangeur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tamagoshis/Lunatique.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tamagoshis/Tamagoshi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/graphic/TamaFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/graphic/TamaJPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/jeu/AutoTamaGame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/jeu/AutoTamaGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/jeu/TamaGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TD-6/jeu/TamaGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/jeu/TamaGameGraphic$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/jeu/TamaGameGraphic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/GrosJoueur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/GrosJoueur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/GrosMangeur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/GrosMangeur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/Lunatique.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/Lunatique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/Tamagoshi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/Tamagoshi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jeu/TamaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jeu/TamaGame.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,26 +79,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tamagoshis/Tamagoshi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tamagoshis/GrosJoueur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="697">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jeu/TamaGame.java">
+        <entry file="file://$PROJECT_DIR$/src/dessin/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="476">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/visuel/TamaJPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-612">
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,21 +107,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tamagoshis/GrosMangeur.java">
+        <entry file="file://$PROJECT_DIR$/src/visuel/Tama.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tamagoshis/Lunatique.java">
+        <entry file="file://$PROJECT_DIR$/src/jeu/TamaGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="306">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,21 +159,23 @@
         <option value="$PROJECT_DIR$/src/dessin/Ligne.java" />
         <option value="$PROJECT_DIR$/src/jeu/TamaGameGraphic.java" />
         <option value="$PROJECT_DIR$/src/jeu/AutoTamaGame.java" />
-        <option value="$PROJECT_DIR$/src/tamagoshis/Tamagoshi.java" />
         <option value="$PROJECT_DIR$/src/tamagoshis/GrosMangeur.java" />
         <option value="$PROJECT_DIR$/src/tamagoshis/Lunatique.java" />
         <option value="$PROJECT_DIR$/src/tamagoshis/GrosJoueur.java" />
-        <option value="$PROJECT_DIR$/src/jeu/TamaGame.java" />
         <option value="$PROJECT_DIR$/src/jeu/TamaGameWithLambda.java" />
+        <option value="$PROJECT_DIR$/src/tamagoshis/Tamagoshi.java" />
+        <option value="$PROJECT_DIR$/src/dessin/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/visuel/TamaJPanel.java" />
+        <option value="$PROJECT_DIR$/src/visuel/Tama.java" />
+        <option value="$PROJECT_DIR$/src/jeu/TamaGame.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1098" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -181,6 +193,11 @@
             <path>
               <item name="TD-6" type="b2602c69:ProjectViewProjectNode" />
               <item name="TD-6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TD-6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TD-6" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TD-6" type="b2602c69:ProjectViewProjectNode" />
@@ -204,6 +221,12 @@
               <item name="TD-6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tamagoshis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TD-6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TD-6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="visuel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TD-6" type="b2602c69:ProjectViewProjectNode" />
@@ -246,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TamaGameGraphic">
+  <component name="RunManager" selected="Application.TamaGame">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -348,8 +371,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TamaGameGraphic" />
         <item itemvalue="Application.TamaGame" />
+        <item itemvalue="Application.TamaGameGraphic" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +389,7 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1617721935465" duration="4370000" />
       <workItem from="1617801649273" duration="12000" />
-      <workItem from="1617801728905" duration="5018000" />
+      <workItem from="1617801728905" duration="7117000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1617806926699</created>
@@ -375,16 +398,38 @@
       <option name="project" value="LOCAL" />
       <updated>1617806926699</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ajout td3">
+      <created>1617809435134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617809435134</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ajout td3 bis">
+      <created>1617809503364</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617809503364</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ajout rectangle">
+      <created>1617809950998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617809950998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10702000" />
+    <option name="totallyTimeSpent" value="12801000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="762" y="0" width="781" height="870" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14295302" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.29542303" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,17 +438,17 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32841823" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33197832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.04021448" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.04021448" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.3297587" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.12868632" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
@@ -428,7 +473,10 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="ajout td3" />
+    <MESSAGE value="ajout td3 bis" />
+    <MESSAGE value="ajout rectangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout rectangle" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -456,27 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dessin/Cercle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dessin/ObjetGraphique.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dessin/Ligne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -565,27 +592,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tamagoshis/Tamagoshi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/Utilisateur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jeu/TamaGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,6 +613,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dessin/Cercle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dessin/Ligne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dessin/ObjetGraphique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tamagoshis/Tamagoshi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dessin/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jeu/TamaGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visuel/Tama.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visuel/TamaJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
