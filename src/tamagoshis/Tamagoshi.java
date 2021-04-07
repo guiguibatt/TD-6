@@ -36,8 +36,7 @@ public class Tamagoshi {
 
 	public void parle() // Exo 16
 	{
-		Object name = null;
-		name.toString();
+
 		String s = "";
 		if (energy < 5)
 			s += "je suis affamé";
