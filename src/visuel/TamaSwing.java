@@ -1,8 +1,8 @@
 package visuel;
 
-public class Tama extends javax.swing.JFrame {
+public class TamaSwing extends javax.swing.JFrame {
 
-    public Tama() {
+    public TamaSwing() {
         add(new TamaJPanel());
     }
 
@@ -10,7 +10,7 @@ public class Tama extends javax.swing.JFrame {
      * @param args
      */
     public static void main(String[] args) {
-        Tama t = new Tama();
+        TamaSwing t = new TamaSwing();
         t.setSize(400, 400);
         t.setLocationRelativeTo(null);
         t.setDefaultCloseOperation(EXIT_ON_CLOSE);

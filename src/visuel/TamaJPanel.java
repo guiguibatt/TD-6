@@ -3,31 +3,28 @@ package visuel;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Point;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import javax.swing.JButton;
+
 import javax.swing.JPanel;
 
 import dessin.*;
 
-public class TamaJPanel extends JPanel implements MouseListener, ActionListener {
+public class TamaJPanel extends JPanel {
 
     private static List<Color> listeCouleurs;
 
     private List<ObjetGraphique> listeFigures;
     private Cercle oeilGauche, oeilDroit, tete;
     private Rectangle bouche;
-    private JButton boutonOeilDroit, boutonOeilGauche, boutonBouche, boutonTete;
+
 
     public TamaJPanel() {
 
-        // les objets graphiques
+
         oeilGauche = new Cercle(new Point(160, 150), 20);
         oeilDroit = new Cercle(new Point(240, 150), 20);
         tete = new Cercle(new Point(200, 200), 100);
@@ -37,24 +34,6 @@ public class TamaJPanel extends JPanel implements MouseListener, ActionListener 
 
         listeFigures = new ArrayList<>(Arrays.asList(oeilDroit, oeilGauche, bouche, tete));
 
-        // Ce jpanel est aussi son propre écouteur
-        this.addMouseListener(this);
-
-        // les boutons
-        boutonBouche = new JButton("Bouche");
-        boutonOeilGauche = new JButton("OeilGauche");
-        boutonOeilDroit = new JButton("OeilDroit");
-        boutonTete = new JButton("Tete");
-        add(boutonBouche);
-        add(boutonOeilGauche);
-        add(boutonOeilDroit);
-        add(boutonTete);
-
-        // c'est aussi le jpanel qui écoute les boutons
-        boutonBouche.addActionListener(this);
-        boutonOeilGauche.addActionListener(this);
-        boutonOeilDroit.addActionListener(this);
-        boutonTete.addActionListener(this);
     }
 
     @Override
@@ -85,23 +64,6 @@ public class TamaJPanel extends JPanel implements MouseListener, ActionListener 
         }
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == boutonBouche) {
-            bouche.setVisible(!bouche.isVisible());
-        } else if (e.getSource() == boutonOeilDroit) {
-            oeilDroit.setVisible(!oeilDroit.isVisible());
-        }
-
-        else if (e.getSource() == boutonOeilGauche) {
-            oeilGauche.setVisible(!oeilGauche.isVisible());
-        }
-
-        else {
-            tete.setVisible(!tete.isVisible());
-        }
-        repaint();
-    }
 
 
     public void mousePressed(MouseEvent e) {
