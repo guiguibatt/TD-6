@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="ajout rectangle">
-      <change afterPath="$PROJECT_DIR$/src/visuel/Tama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visuel/TamaJPanel.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="ajout visuel + debut initialisation fenetre">
+      <change afterPath="$PROJECT_DIR$/src/jeu/TamaGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TD-6/graphic/TamaFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TD-6/graphic/TamaJPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TD-6/jeu/AutoTamaGame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TD-6/jeu/AutoTamaGame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TD-6/jeu/TamaGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TD-6/jeu/TamaGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TD-6/jeu/TamaGameGraphic$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TD-6/jeu/TamaGameGraphic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/GrosJoueur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/GrosJoueur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/GrosMangeur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/GrosMangeur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/Lunatique.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/Lunatique.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/Tamagoshi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TD-6/tamagoshis/Tamagoshi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jeu/TamaGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jeu/TamaGame.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -94,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/visuel/TamaJPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
-              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="-1326">
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,13 +108,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jeu/TamaGame.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jeu/TamaGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="2024">
+              <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1080#1183#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#5191#5192#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,11 +160,12 @@
         <option value="$PROJECT_DIR$/src/visuel/TamaJPanel.java" />
         <option value="$PROJECT_DIR$/src/visuel/Tama.java" />
         <option value="$PROJECT_DIR$/src/jeu/TamaGame.java" />
+        <option value="$PROJECT_DIR$/src/jeu/TamaGameTest.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1088" />
@@ -252,7 +245,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -269,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TamaGame">
+  <component name="RunManager" selected="Application.TamaGameTest">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -304,8 +297,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TamaGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jeu.TamaGame" />
+    <configuration name="TamaGameGraphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jeu.TamaGameGraphic" />
       <module name="TD-6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -318,8 +311,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TamaGameGraphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jeu.TamaGameGraphic" />
+    <configuration name="TamaGameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jeu.TamaGameTest" />
       <module name="TD-6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -371,7 +364,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TamaGame" />
+        <item itemvalue="Application.TamaGameTest" />
         <item itemvalue="Application.TamaGameGraphic" />
       </list>
     </recent_temporary>
@@ -389,7 +382,7 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1617721935465" duration="4370000" />
       <workItem from="1617801649273" duration="12000" />
-      <workItem from="1617801728905" duration="7117000" />
+      <workItem from="1617801728905" duration="11610000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1617806926699</created>
@@ -419,18 +412,24 @@
       <option name="project" value="LOCAL" />
       <updated>1617809950998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ajout visuel + debut initialisation fenetre">
+      <created>1617811602125</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617811602125</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12801000" />
+    <option name="totallyTimeSpent" value="17294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="870" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.29542303" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14295302" />
+      <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -438,7 +437,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33197832" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33378017" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,6 +464,43 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14295302" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33378017" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.04021448" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.12868632" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -476,7 +512,8 @@
     <MESSAGE value="ajout td3" />
     <MESSAGE value="ajout td3 bis" />
     <MESSAGE value="ajout rectangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout rectangle" />
+    <MESSAGE value="ajout visuel + debut initialisation fenetre" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout visuel + debut initialisation fenetre" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -651,10 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jeu/TamaGame.java">
+    <entry file="file://$PROJECT_DIR$/src/visuel/TamaJPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="-1326">
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -672,12 +709,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/visuel/TamaJPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/jeu/TamaGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="2024">
+          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1080#1183#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#5191#5192#0" expanded="true" />
           </folding>
         </state>
       </provider>
